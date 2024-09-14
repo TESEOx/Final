@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Elegante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Audio de fondo -->
+    <audio id="backgroundMusic" src="/audio/LMFAO.mp3" preload="auto" loop style="display: none;"></audio>
+
+    <div class="envelope" id="envelope">
+        <div class="envelope-flap" id="envelopeFlap">
+            <div class="center-line">
+                <div class="circle">
+                    <img src="/images/corona.png" alt="Corona">
+                </div>
+            </div>
+            <div class="flap-decoration"></div>
+        </div>
+        <div class="envelope-body">
+            <div class="card-content">
+                <h2>Invitación de Cumpleaños</h2>
+                <p>Haz clic para abrir y descubrir la invitación.</p>
+                <p>"Advertencia, bajar un poco el volumen"</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="expanded-content" id="expandedContent">
+        <div class="content-wrapper">
+            <h3>¡Estás Invitado!</h3>
+            <p>Te invito a mi reunión. Se dará a cabo el dia 23 de septiembre.</p>
+            <img src="/Gif/THANOS-BAILE.gif" alt="Gif 1" class="gif-left">
+            <p class="countdown" id="countdown"></p>
+            <img src="/Gif/OSO.gif" alt="Gif 2" class="gif-right">
+            <h2>Ubicación del evento:</h2>
+            <p>Miguel Grau 136, Huacho, Perú</p>
+            <iframe class="mapa-ubicacion"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d336.17447689373125!2d-77.6158502428614!3d-11.126187862527328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1725564588308!5m2!1sen!2sus">
+            </iframe><br>
+            <button id="closeButton">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
